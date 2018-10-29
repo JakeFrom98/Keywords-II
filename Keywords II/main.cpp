@@ -134,6 +134,7 @@ rerun:
 		cout << "\nThe word was " << THE_WORD << endl;
 		system("pause");
 		system("cls");
+		// Go To ReRun
 		goto rerun;
 	}
 	
@@ -147,10 +148,11 @@ rerun:
 	else
 		// Clear Console
 		system("cls");
-	cout << "\nThe word was " << THE_WORD << endl;
+		cout << "\nThe word was " << THE_WORD << endl;
 		cout << "\nCongratulations " << name << "! on discovering the final word!";
 		// Ask the recruit if they would like to run the simulation again
 		
+		// Store Y/N in variable
 		string again;
 		cout << "\nWould You Like To Run The Simulation Again y/n? ";
 		cin >> again;
@@ -160,5 +162,6 @@ rerun:
 			++simiulation;
 			// Clear Console
 			system("cls");
+			// Go To rerun
 			goto rerun;
 }
