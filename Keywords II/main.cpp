@@ -44,7 +44,7 @@ rerun:
 	system("cls");
 
 	// The Max Number Of Incorrect Guesses
-	const int MAX_WRONG = 8;  
+	const int MAX_WRONG = 8;   
 
 	// Create a collection of 10 words you had wrote down manually
 	vector<string> words;  
